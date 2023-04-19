@@ -1,0 +1,78 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#guess {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 10px;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+button {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(5, 40px);
+  grid-template-rows: repeat(6, 40px);
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.game-cell {
+  width: 40px;
+  height: 40px;
+  background-color: #424242;
+  text-align: center;
+  line-height: 40px;
+}
+/* Add this to the end of your styles.css file */
+#message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#play-again {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #2196f3;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+#play-again:hover {
+  background-color: #0d8bf2;
+}
+
